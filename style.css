@@ -1,0 +1,165 @@
+.center-align-v {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-align-h {
+    display: flex;
+    align-items: center;
+}
+
+.space-btw {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+div>label {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.logo>svg {
+    height: auto;
+    width: 103px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+
+
+.roboto-condensed-1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.inter-1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.create {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+
+hr {
+    border: 0.5px solid #e5e7eb;
+
+    margin: 20px 0px;
+    width: 334px;
+}
+
+input {
+    width: 300px;
+    padding: 13px 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.g-logo {
+    height: 20px;
+    width: 20px;
+}
+
+.g-signup-btn {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    /* Smooth corners make the border look thinner */
+    background-color: transparent;
+    width: 334px;
+    padding: 13px 20px;
+}
+
+.g-signup-btn>span {
+    padding: 0px 60px;
+}
+
+.signup-btn {
+    width: 334px;
+    padding: 13px 10px;
+    margin: 15px 10px 0px 0px;
+    background-color: #A6A6AE;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+
+.g-signup-btn:hover {
+    cursor: pointer;
+}
+
+header {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+footer {
+    background-color: #FAFAFA;
+    color: #76767F;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer>div {
+    padding: 25px 0px;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Keeps everything centered horizontally */
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Vertically centers the form within the main area */
+}
+
+main>div>h3 {
+    color: #6b716f;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.ft-wt {
+    font-weight: 400;
+    font-size: 14px;
+    color: darkslategrey;
+}
+
+.agreement {
+    font-size: 14px;
+    font-weight: 600;
+    color: #76767F;
+}
+
+.signup-wt-g{
+    font-size: 14px;
+    font-weight: 500;
+}
